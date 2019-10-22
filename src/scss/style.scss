@@ -1,0 +1,113 @@
+$primary-color: #F26B1D;
+$color-white: #fff;
+$color-black: #000;
+body {
+    margin-top: 105px;
+}
+
+.btn:hover {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 7px 2rem rgba($color-black, .2);
+    box-shadow: 0 7px 2rem rgba($color-black, .2);
+}
+
+.card {
+    -webkit-box-shadow: 0 5px 2rem rgba($color-black, .2);
+    box-shadow: 0 5px 2rem rgba($color-black, .2);
+}
+
+.navbar {
+    -webkit-box-shadow: 2px 2px 7px rgba($primary-color, .7);
+    box-shadow: 2px 2px 7px rgba($primary-color, .7);
+    opacity: 0.9;
+    background: $color-white;
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 1.25rem;
+    }
+}
+
+#showcase {
+    position: relative;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 600px;
+    .primary-overlay {
+        background: rgba($primary-color, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .showcase-heading {
+        margin-top: 20%;
+    }
+    .book-cover {
+        height: 27rem;
+        margin-top: 16%;
+        margin-left: 30%;
+        -webkit-box-shadow: 0 10px 2rem rgba($color-black, .5);
+        box-shadow: 0 10px 2rem rgba($color-black, .5);
+    }
+}
+
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#Authors {
+    img {
+        margin-top: -3.125rem;
+    }
+    .fa {
+        font-size: 1.562rem;
+    }
+    p {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .card:hover {
+        background-color: $primary-color;
+        color: $color-white;
+        .fa {
+            color: $color-white;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    #About {
+        .about-heading {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: .8rem;
+        }
+        .card-body {
+            font-size: 1rem;
+        }
+    }
+    #Authors {
+        h1 {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: .8rem;
+        }
+    }
+    #footer {
+        p {
+            font-size: .8rem;
+        }
+    }
+}
