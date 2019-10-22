@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sumancsnit/bs4-book-theme#readme",
   "dependencies": {
-    "bootstrap": "4.1.1",
+    "bootstrap": "4.3.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
